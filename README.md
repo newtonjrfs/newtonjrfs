@@ -21,3 +21,7 @@
 
 <br><br><br><br>
 
+FATAL EXCEPTION: main (Ask Gemini)
+                 Process: br.com.uol.ps.myaccount.dev, PID: 15664
+                 java.lang.IncompatibleClassChangeError: The method 'void com.google.firebase.sessions.api.FirebaseSessionsDependencies.addDependency(com.google.firebase.sessions.api.SessionSubscriber$Name)' was expected to be of type virtual but instead was found to be of type static (declaration of 'com.google.firebase.crashlytics.CrashlyticsRegistrar' appears in /data/app/br.com.uol.ps.myaccount.dev-i-E1kbjrr0gEDME5wOcgEg==/base.apk!classes23.dex)
+                 	at com.google.firebase.crashlytics.CrashlyticsRegistrar.<clinit>(CrashlyticsRegistrar.java:39)
